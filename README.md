@@ -1,4 +1,5 @@
 # freeCodeCamp-exercise
+This repository contains freeCodeCamp Javascript exercise completed while learning JavaScript
 
 ## 🚀 Projects Directory
 
