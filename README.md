@@ -8,6 +8,7 @@ This repository contains freeCodeCamp Javascript exercise completed while learni
 | :--- | :--- | :--- | :--- | 
 
 | **Instruments Filter** | A web application that filters and displays different types of instruments using category buttons. | HTML, CSS, JS | [View Code](./instruments) |
+| *LightBox* | A web application that displays images or content in a full-screen lightbox overlay. | HTML, CSS, JS | [View Code](./lightbox) |
 
 
 ## 💻 How to View Locally
