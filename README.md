@@ -11,6 +11,8 @@ This repository contains freeCodeCamp Javascript exercise completed while learni
 
 | *LightBox* | A web application that displays images or content in a full-screen lightbox overlay. | HTML, CSS, JS | [View Code](./lightbox) |
 
+| **Real-Time Character Counter** | A character counter that displays the current number of characters entered and limits the input to 50 characters. | HTML, CSS, JS | [View Code](https://github.com/NishantAhlawat10/freeCodeCamp-exercise/tree/main/countChar) |
+
 
 ## 💻 How to View Locally
 
