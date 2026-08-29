@@ -12,6 +12,7 @@ This repository contains freeCodeCamp Javascript exercise completed while learni
 
 
 - [Emoji Reactor](./emojiReactor/) — An interactive emoji scoring project where clicking an emoji increases its score up to a maximum of 10.
+- [favouriteIconToggler](./favoriteIconToggler) - An interactive JavaScript project that toggles a favourite icon when clicked
 
 ## 💻 How to View Locally
 
