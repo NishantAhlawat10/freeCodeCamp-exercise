@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Favorite Icon Toggler</title>
+    <style>
+        *,
+*::before,
+*::after {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  --light-grey: #efefef;
+  --white: #ffffff;
+  --very-dark-blue: #0a0a23;
+  --light-purple: #a78bfa;
+  --very-light-purple: #c4b5fd;
+  --purple: #8b5cf6;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--light-grey);
+}
+
+.item-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-heading {
+  margin-bottom: 15px;
+}
+
+button {
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 5px;
+  margin-bottom: 5px;
+  list-style: none;
+}
+
+.favorite-icon {
+  font-size: 1rem;
+}
+
+.filled {
+  font-size: 1rem;
+}
+
+</style>
+
+  </head>
+
+  <body>
+    <main>
+      <h1 class="main-heading">Art Supplies</h1>
+    <ul class="item-list">
+        <li><span>120 gm paper</span><button class="favorite-icon">&#9825</button></li>
+        <li><span>WaterColor Set</span><button class="favorite-icon">&#9825</button></li>
+        <li><span>Lead pencil 6B</span><button class="favorite-icon">&#9825</button></li>
+    </ul>
+    
+  </main>
+  <script src="./script.js"></script>;
+  </body>
+</html>
+
