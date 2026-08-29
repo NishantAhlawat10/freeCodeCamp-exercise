@@ -8,11 +8,11 @@ This repository contains freeCodeCamp Javascript exercise completed while learni
 
 - [lightbox](./lightbox) - A web application that displays images or content in a full-screen lightbox overlay.
 
-| **Real-Time Character Counter** | A character counter that displays the current number of characters entered and limits the input to 50 characters. | HTML, CSS, JS | [View Code](https://github.com/NishantAhlawat10/freeCodeCamp-exercise/tree/main/countChar) |
+-[Real-Time Character Counter](./countChar) A character counter that displays the current number of characters entered and limits the input to 50 characters.
 
 
 - [Emoji Reactor](./emojiReactor/) — An interactive emoji scoring project where clicking an emoji increases its score up to a maximum of 10.
-- [favouriteIconToggler](./favoriteIconToggler) - An interactive JavaScript project that toggles a favourite icon when clicked
+- [favouriteIconToggler](./favouriteIconToggler) - An interactive JavaScript project that toggles a favourite icon when clicked
 
 ## 💻 How to View Locally
 
