@@ -14,6 +14,8 @@ This repository contains freeCodeCamp Javascript exercise completed while learni
 - [Emoji Reactor](./emojiReactor/) — An interactive emoji scoring project where clicking an emoji increases its score up to a maximum of 10.
 - [favouriteIconToggler](./favouriteIconToggler) - An interactive JavaScript project that toggles a favourite icon when clicked
 
+- [football](./football) - ⚽ Football Player Filter .A simple JavaScript project that filters and displays football players by position, including Forward, Midfielder, Defender, and Goalkeeper.
+
 ## 💻 How to View Locally
 
 1. Clone this repository to your local machine:
