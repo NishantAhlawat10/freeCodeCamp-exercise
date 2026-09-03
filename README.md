@@ -15,6 +15,7 @@ This repository contains freeCodeCamp Javascript exercise completed while learni
 - [favouriteIconToggler](./favouriteIconToggler) - An interactive JavaScript project that toggles a favourite icon when clicked
 
 - [football](./football) - ⚽ Football Player Filter .A simple JavaScript project that filters and displays football players by position, including Forward, Midfielder, Defender, and Goalkeeper.
+- -[Map and Set Exercises](./Plants) - JavaScript exercises covering the Map and Set data structures.
 
 ## 💻 How to View Locally
 
