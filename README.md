@@ -1,8 +1,8 @@
 # freeCodeCamp-exercise
+
 This repository contains freeCodeCamp Javascript exercise completed while learning JavaScript
 
 ## 🚀 Projects Directory
-
 
 - [Instruments](./instruments) - A web application that filters and displays different types of instruments using category buttons.
 
@@ -10,12 +10,11 @@ This repository contains freeCodeCamp Javascript exercise completed while learni
 
 -[Real-Time Character Counter](./countChar) A character counter that displays the current number of characters entered and limits the input to 50 characters.
 
-
 - [Emoji Reactor](./emojiReactor/) — An interactive emoji scoring project where clicking an emoji increases its score up to a maximum of 10.
 - [favouriteIconToggler](./favouriteIconToggler) - An interactive JavaScript project that toggles a favourite icon when clicked
 
 - [football](./football) - ⚽ Football Player Filter .A simple JavaScript project that filters and displays football players by position, including Forward, Midfielder, Defender, and Goalkeeper.
-- [Map and Set Exercises](./Plants) - JavaScript exercises covering the Map and Set data structures.
+- [Map and Set Exercises](./Plants) - JavaScript exercises covering the Map and Set data structures. -[shoppinCart](./shoppingCart) - An interactive shopping cart built with JavaScript. Users can add products to the cart, track the total number of items and total bill, and clear the entire cart.
 
 ## 💻 How to View Locally
 
