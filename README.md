@@ -16,6 +16,7 @@ This repository contains freeCodeCamp Javascript exercise completed while learni
 - [football](./football) - ⚽ Football Player Filter .A simple JavaScript project that filters and displays football players by position, including Forward, Midfielder, Defender, and Goalkeeper.
 - [Map and Set Exercises](./Plants) - JavaScript exercises covering the Map and Set data structures.
 - [shoppinCart](./shoppingCart) - An interactive shopping cart built with JavaScript. Users can add products to the cart, track the total number of items and total bill, and clear the entire cart.
+- [ideaBoard](./ideaBoard) - A JavaScript project that demonstrates classes, objects, class methods, arrays, and object-based status management.
 
 ## 💻 How to View Locally
 
