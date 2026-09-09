@@ -1,0 +1,84 @@
+*,
+*::before,
+*::after {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* colors */
+  --primary-color: #dfdfe2;
+  --secondary-color: #ffffff;
+  --app-background-color: #4d4d62;
+  --background-color: #1b1b32;
+  --foreground-color: #3b3b4f;
+  --highlight-color: #f1be32;
+
+  /* font sizes */
+  --root-font-size: 16px;
+  font-size: var(--root-font-size);
+
+  /* font-families */
+  --font-headline: "Roboto Mono", monospace;
+  --font-family: "Lato", sans-serif;
+}
+
+body {
+  background-color: var(--background-color);
+  min-height: 100vh;
+  font-family: var(--font-family);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#drum-machine {
+  margin: 0px auto;
+  background-color: var(--app-background-color);
+  min-height: 100vh;
+  padding: 10px;
+  width: 70vw;
+}
+
+.heading__h1 {
+  text-align: center;
+  color: var(--secondary-color);
+  font-family: var(--font-family);
+}
+
+#display {
+  display: flex;
+  width: 80%;
+  height: 40px;
+  background-color: white;
+  margin: 20px auto;
+  text-align: center;
+  color: black;
+  font-family: var(--font-family);
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+}
+
+#pad-bank {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.drum-pad {
+  height: 40px;
+  background-color: #e0e0e0;
+  border: 2px solid #333;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.drum-pad .active {
+  background-color: orange;
+  transform: scale(0.95);
+}
