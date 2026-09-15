@@ -19,6 +19,7 @@ This repository contains freeCodeCamp Javascript exercise completed while learni
 - [todoApp](./todoApp) - A todo list application built with HTML, CSS, and JavaScript.
 - [drum-machine](./drum-machine) - An interactive Drum Machine built with HTML, CSS, and JavaScript, featuring drum sounds playable with both mouse clicks and keyboard keys.
 - [decimalToBinary](./decimalToBinary) - A decimal to binary converter with an animation demonstrating how recursion and the call stack work step-by-step.
+- [Voting System](./votingSystem) - A Voting System. A simple JavaScript program where i lean about maps and sets.
 
 
 ## 💻 How to View Locally
