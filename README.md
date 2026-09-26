@@ -21,6 +21,8 @@ This repository contains freeCodeCamp Javascript exercise completed while learni
 - [decimalToBinary](./decimalToBinary) - A decimal to binary converter with an animation demonstrating how recursion and the call stack work step-by-step.
 - [Voting System](./votingSystem) - A Voting System. A simple JavaScript program where i lean about maps and sets.
 - [Random Color](./randomColor) - A simple JavaScript project where clicking the button changes the body's background color randomly.
+- [Digital Clock](./digitalClock) - A simple responsive digital clock built using HTML, CSS, and JavaScript that displays the current time and updates every second.
+
 
 
 
