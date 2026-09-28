@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column nowrap;
+        background-color: #f5f5f5;
+      }
+
+      .container {
+        display: flex;
+        flex-flow: column nowrap;
+      }
+
+      .row {
+        display: flex;
+      }
+
+      .col {
+        width: 30px;
+        height: 30px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 1rem;
+        cursor: pointer;
+      }
+
+      @media screen and (min-width: 400px) {
+        .col {
+          width: 40px;
+          height: 40px;
+          font-size: 1.5rem;
+        }
+      }
+      @media screen and (min-width: 500px) {
+        .col {
+          width: 50px;
+          height: 50px;
+          font-size: 2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col" id="0"></div>
+        <div class="col" id="1"></div>
+        <div class="col" id="2"></div>
+      </div>
+      <div class="row">
+        <div class="col" id="3"></div>
+        <div class="col" id="4"></div>
+        <div class="col" id="5"></div>
+      </div>
+      <div class="row">
+        <div class="col" id="6"></div>
+        <div class="col" id="7"></div>
+        <div class="col" id="8"></div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
