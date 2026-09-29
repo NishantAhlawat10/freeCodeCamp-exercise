@@ -22,6 +22,7 @@ This repository contains freeCodeCamp Javascript exercise completed while learni
 - [Voting System](./votingSystem) - A Voting System. A simple JavaScript program where i lean about maps and sets.
 - [Random Color](./randomColor) - A simple JavaScript project where clicking the button changes the body's background color randomly.
 - [Digital Clock](./digitalClock) - A simple responsive digital clock built using HTML, CSS, and JavaScript that displays the current time and updates every second.
+- [Tic Tac Toe](./tictactoe) - A classic, interactive Tic Tac Toe game built using HTML, CSS, and JavaScript.
 
 
 
