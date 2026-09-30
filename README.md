@@ -23,6 +23,8 @@ This repository contains freeCodeCamp Javascript exercise completed while learni
 - [Random Color](./randomColor) - A simple JavaScript project where clicking the button changes the body's background color randomly.
 - [Digital Clock](./digitalClock) - A simple responsive digital clock built using HTML, CSS, and JavaScript that displays the current time and updates every second.
 - [Tic Tac Toe](./tictactoe) - A classic, interactive Tic Tac Toe game built using HTML, CSS, and JavaScript.
+- [Stop Watch] - A simple and responsive stopwatch built using HTML, CSS, and JavaScript with Start, Stop, and Reset functionality.
+
 
 
 
