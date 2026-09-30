@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stop Watch</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background-color: darkgray;
+      }
+
+      h1 {
+        margin-bottom: 20px;
+        font-size: 2rem;
+        color: #222;
+      }
+
+      .clock {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: lightgray;
+        padding: 25px;
+        border-radius: 10px;
+        gap: 20px;
+      }
+
+      .clock span {
+        font-size: 2rem;
+        font-weight: 600;
+        color: #333;
+      }
+
+      .buttons {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .buttons button {
+        border-radius: 25px;
+        padding: 10px 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2rem;
+        border: none;
+      }
+
+      #start {
+        background-color: green;
+        color: white;
+      }
+
+      #stop {
+        background-color: red;
+        color: white;
+      }
+
+      #reset {
+        background-color: blue;
+        color: white;
+      }
+
+      .buttons button:hover {
+        cursor: pointer;
+        opacity: 0.8;
+      }
+
+      @media screen and (min-width: 600px) {
+        .clock {
+          padding: 30px;
+          gap: 25px;
+        }
+
+        .clock span {
+          font-size: 3rem;
+        }
+
+        .buttons {
+          gap: 25px;
+        }
+
+        .buttons button {
+          padding: 18px 22px;
+          font-size: 1.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Stopwatch</h1>
+    <div class="clock">
+      <span class="hours">00</span>
+      <span>:</span>
+      <span class="minutes">00</span>
+      <span>:</span>
+      <span class="seconds">00</span>
+    </div>
+    <div class="buttons">
+      <button id="start">Start</button>
+      <button id="stop">Stop</button>
+      <button id="reset">Reset</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
