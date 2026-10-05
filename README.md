@@ -24,6 +24,7 @@ This repository contains freeCodeCamp Javascript exercise completed while learni
 - [Digital Clock](./digitalClock) - A simple responsive digital clock built using HTML, CSS, and JavaScript that displays the current time and updates every second.
 - [Tic Tac Toe](./tictactoe) - A classic, interactive Tic Tac Toe game built using HTML, CSS, and JavaScript.
 - [Stop Watch](./stopWatch) - A simple and responsive stopwatch built using HTML, CSS, and JavaScript with Start, Stop, and Reset functionality.
+- [Rock, Paper and Scissors](./rock,Paper and Scissor) - A classic Rock, Paper, Scissors game built with HTML, CSS, and JavaScript.
 
 
 
