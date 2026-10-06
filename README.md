@@ -25,6 +25,7 @@ This repository contains freeCodeCamp Javascript exercise completed while learni
 - [Tic Tac Toe](./tictactoe) - A classic, interactive Tic Tac Toe game built using HTML, CSS, and JavaScript.
 - [Stop Watch](./stopWatch) - A simple and responsive stopwatch built using HTML, CSS, and JavaScript with Start, Stop, and Reset functionality.
 - [Rock, Paper and Scissors](./rock-paper-scissor) - A classic Rock, Paper, Scissors game built with HTML, CSS, and JavaScript.
+- [Bank Manager](./bankManager) - A simple Bank Account application using JavaScript classes to manage deposits, withdrawals, transactions, and balance.
 
 
 
