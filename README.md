@@ -26,6 +26,7 @@ This repository contains freeCodeCamp Javascript exercise completed while learni
 - [Stop Watch](./stopWatch) - A simple and responsive stopwatch built using HTML, CSS, and JavaScript with Start, Stop, and Reset functionality.
 - [Rock, Paper and Scissors](./rock-paper-scissor) - A classic Rock, Paper, Scissors game built with HTML, CSS, and JavaScript.
 - [Bank Manager](./bankManager) - A simple Bank Account application using JavaScript classes to manage deposits, withdrawals, transactions, and balance.
+- [Music App](./musicApp) - A simple Music App built with HTML, CSS, and JavaScript to learn how to use Local Storage.
 
 
 
