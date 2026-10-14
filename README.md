@@ -28,6 +28,7 @@ This repository contains freeCodeCamp Javascript exercise completed while learni
 - [Bank Manager](./bankManager) - A simple Bank Account application using JavaScript classes to manage deposits, withdrawals, transactions, and balance.
 - [Music App](./musicApp) - A simple Music App built with HTML, CSS, and JavaScript to learn how to use Local Storage.
 - [freeCodeCamp Author page](./fccAuthorPage) - Learned how to fetch API data using `async/await` in JavaScript, handle asynchronous operations, and dynamically display data on a webpage.
+- [freeCodeCamp Leader page](./fccLeader) - Displays the latest freeCodeCamp forum posts using Fetch API, async/await, and dynamic DOM manipulation.
 
 
 
