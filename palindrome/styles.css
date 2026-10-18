@@ -1,0 +1,97 @@
+/* Reset default margins and paddings */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the main background and center everything */
+body {
+  background-color: #0a0a23;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Style the main title */
+.heading {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+/* Create a clean, centered card for the form */
+.page {
+  background-color: #ffffff;
+  color: #0a0a23;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Space out the form elements */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Style the text input field */
+#text-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Style the check button */
+#check-btn {
+  background-color: #feac32;
+  color: #0a0a23;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+/* Add a hover effect to the button */
+#check-btn:hover {
+  background-color: #f1be32;
+}
+
+/* Style the result display box */
+.result-display {
+  margin-top: 20px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #3b3b4f;
+  padding: 15px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hidden {
+  display: none;
+}
