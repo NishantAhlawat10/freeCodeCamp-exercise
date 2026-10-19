@@ -31,9 +31,8 @@ This repository contains freeCodeCamp Javascript exercise completed while learni
 - [freeCodeCamp Leader page](./fccLeader) - Displays the latest freeCodeCamp forum posts using Fetch API, async/await, and dynamic DOM manipulation.
 - [Currie Function](./ingredientsCurrie) - This project helped me learn currying in JavaScript, higher-order functions, unit conversion, and adjusting ingredient quantities based on serving sizes.
 - [Palindrome](./palindrome) - A simple palindrome checker built with HTML, CSS, and JavaScript that checks whether a word or phrase reads the same forward and backward.
-
-
-
+- [Weather App](./fccWeather) - A simple weather app built using HTML, CSS, and JavaScript to display weather details for selected cities.
+Users can select a city from a dropdown menu and view its temperature, humidity, weather conditions, and wind speed.
 
 ## 💻 How to View Locally
 
