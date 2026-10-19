@@ -1,0 +1,103 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* colors */
+  --primary-color: #dfdfe2;
+  --secondary-color: #ffffff;
+  --app-background-color: #004d00;
+  --background-color: #1b1b32;
+  --foreground-color: #3b3b4f;
+  --highlight-color: #f1be32;
+
+  /* font sizes */
+  --root-font-size: 16px;
+  font-size: var(--root-font-size);
+
+  /* font-families */
+  --font-headline: "Roboto Mono", monospace;
+  --font-family: "Lato", sans-serif;
+}
+body {
+  background-color: var(--app-background-color);
+  min-height: 100vh;
+  font-family: var(--font-family);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+#container {
+  background-color: var(--primary-color);
+  height: 60vh;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.user-input {
+  flex: 1;
+  border: 2px solid black;
+  background-color: var(--foreground-color);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+label {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+}
+
+select,
+button {
+  padding: 8px 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid var(--primary-color);
+  background-color: white;
+  cursor: pointer;
+}
+
+button#get-weather-btn {
+  background-color: var(--primary-color);
+  color: var(--foreground-color);
+  font-weight: bold;
+}
+
+@media screen and (min-width: 500px) {
+  .user-input {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* Add your styles for big devices here, for example: */
+  #container {
+    height: 60vh;
+  }
+
+  .user-input {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 50px;
+  }
+}
