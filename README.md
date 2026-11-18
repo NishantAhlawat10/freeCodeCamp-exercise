@@ -34,9 +34,9 @@ This repository contains freeCodeCamp Javascript exercise completed while learni
 - [Weather App](./fccWeather) - A simple weather app built using HTML, CSS, and JavaScript to display weather details for selected cities.
 Users can select a city from a dropdown menu and view its temperature, humidity, weather conditions, and wind speed.
 
--[Note Making](./noteMaking) - A lightweight web note editor with automatic focus-based save status tracking built using HTML, CSS and JavaScript.
+- [Note Making](./noteMaking) - A lightweight web note editor with automatic focus-based save status tracking built using HTML, CSS and JavaScript.
 
--[spamFilter](./spamFilter) - A simple Spam Filter built using HTML, CSS, and JavaScript that detects unwanted messages using Regular                                   Expressions (Regex).It identifies common spam phrases like "Free Money", "Dear Friend", "Stock Alert",
+- [spamFilter](./spamFilter) - A simple Spam Filter built using HTML, CSS, and JavaScript that detects unwanted messages using Regular                                   Expressions (Regex).It identifies common spam phrases like "Free Money", "Dear Friend", "Stock Alert",
                               "Please Help", and money-related offers such as "100 Dollars".Displays whether a message is spam or not in                                real time.
 
 ## 💻 How to View Locally
